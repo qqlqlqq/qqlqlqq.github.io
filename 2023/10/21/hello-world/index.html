@@ -204,7 +204,7 @@
     if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
     else {
       loadTwikoo()
-      
+      GLOBAL_CONFIG_SITE.isPost && getCount()
     }
   } else {
     window.loadOtherComment = loadTwikoo
