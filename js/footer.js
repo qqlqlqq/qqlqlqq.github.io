@@ -1,11 +1,11 @@
 // 动态心跳
 $(document).ready(function(e) {
     $('.copyright').html('©2021 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By 竹山一叶');
-})
+});
 
 $(document).ready(function(e) {
     show_date_time();
-})
+});
 
 //本站运行时间
 function show_date_time() {
@@ -25,4 +25,4 @@ $('.framework-info').html('本站已运行<span id="span_dt_dt" style="color: #f
   minsold=Math.floor((e_hrsold-hrsold)*60);
   seconds=Math.floor((e_minsold-minsold)*60);
   span_dt_dt.innerHTML='<font style=color:#afb4db>'+daysold+'</font> 天 <font style=color:#f391a9>'+hrsold+'</font> 时 <font style=color:#fdb933>'+minsold+'</font> 分 <font style=color:#a3cf62>'+seconds+'</font> 秒';
-}
+};
