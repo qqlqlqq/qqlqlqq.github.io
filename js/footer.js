@@ -11,7 +11,7 @@ $(document).ready(function(e) {
 function show_date_time() {
 $('.framework-info').html('本站已运行<span id="span_dt_dt" style="color: #fff;"></span>');
   window.setTimeout("show_date_time()", 1000);
-  BirthDay=new Date("1/20/2021 0:0:0");
+  BirthDay=new Date("10/21/2023 0:0:0");
   today=new Date();
   timeold=(today.getTime()-BirthDay.getTime());
   sectimeold=timeold/1000
