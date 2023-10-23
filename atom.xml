@@ -6,7 +6,7 @@
   <link href="https://qqlqlqq.github.io/atom.xml" rel="self"/>
   
   <link href="https://qqlqlqq.github.io/"/>
-  <updated>2023-10-23T17:04:18.988Z</updated>
+  <updated>2023-10-23T15:39:03.629Z</updated>
   <id>https://qqlqlqq.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Java进阶篇2</title>
-    <link href="https://qqlqlqq.github.io/2023/10/24/Java%E8%BF%9B%E9%98%B6%E7%AF%872/"/>
-    <id>https://qqlqlqq.github.io/2023/10/24/Java%E8%BF%9B%E9%98%B6%E7%AF%872/</id>
-    <published>2023-10-23T17:04:15.000Z</published>
-    <updated>2023-10-23T17:04:18.988Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Java进阶篇"><a href="#Java进阶篇" class="headerlink" title="Java进阶篇"></a>Java进阶篇</h1><h2 id="进程"><a href="#进程" class="headerlink" title="进程"></a>进程</h2><p><img src="https://cdn.jsdelivr.net/gh/qqlqlqq/resources/images/%E8%BF%9B%E7%A8%8B.png"></p><h2 id="线程"><a href="#线程" class="headerlink" title="线程"></a>线程</h2><p>多线程：独立操作，互不影响，效率较高，利用空闲时间，让程序做多件事情</p><p>单线程程序：从头往下，一条条执行，cpu 执行效率较低</p><h2 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h2><p>同一时刻，多个指令在单个cpu上<strong>交替</strong>执行</p><h2 id="并行"><a href="#并行" class="headerlink" title="并行"></a>并行</h2><p>同一时刻，多个指令在多个cpu上<strong>同时</strong>进行</p><h2 id="多线程的实现方式"><a href="#多线程的实现方式" class="headerlink" title="多线程的实现方式"></a>多线程的实现方式</h2><h3 id="继承Thread方式"><a href="#继承Thread方式" class="headerlink" title="继承Thread方式"></a>继承Thread方式</h3><ol><li>自定义一个类，实现 Thread</li><li>重写 run方法</li><li>start启动线程</li></ol><img src="https://cdn.jsdelivr.net/gh/qqlqlqq/resources/images/%E5%9B%BE%E7%89%872.png" style="zoom:67%;">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Java进阶篇&quot;&gt;&lt;a href=&quot;#Java进阶篇&quot; class=&quot;headerlink&quot; title=&quot;Java进阶篇&quot;&gt;&lt;/a&gt;Java进阶篇&lt;/h1&gt;&lt;h2 id=&quot;进程&quot;&gt;&lt;a href=&quot;#进程&quot; class=&quot;headerlink&quot; title=&quot;进</summary>
-      
-    
-    
-    
-    <category term="Java" scheme="https://qqlqlqq.github.io/categories/Java/"/>
-    
-    
-    <category term="Java" scheme="https://qqlqlqq.github.io/tags/Java/"/>
-    
-  </entry>
   
   <entry>
     <title>Java进阶篇</title>
